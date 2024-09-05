@@ -44,9 +44,9 @@ pub const WITNESS_SCALE_FACTOR: usize = 4;
 /// The maximum allowed number of signature check operations in a block.
 pub const MAX_BLOCK_SIGOPS_COST: i64 = 80_000;
 /// Mainnet (bitcoin) pubkey address prefix.
-pub const PUBKEY_ADDRESS_PREFIX_MAIN: u8 = 30;
+pub const PUBKEY_ADDRESS_PREFIX_MAIN: u8 = 47;
 /// Mainnet (bitcoin) script address prefix.
-pub const SCRIPT_ADDRESS_PREFIX_MAIN: u8 = 22;
+pub const SCRIPT_ADDRESS_PREFIX_MAIN: u8 = 5;
 /// Test (signet, regtest) pubkey address prefix.
 pub const PUBKEY_ADDRESS_PREFIX_TEST: u8 = 113; // 0x71
 /// Test (tesnet, signet, regtest) script address prefix.
